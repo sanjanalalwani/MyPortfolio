@@ -57,3 +57,14 @@ ul{
     font-size: 30px;
     text-transform: capitalize;
 }
+.aside .logo a{
+    color: var(--text-black-900);
+    font-weight: 700;
+    background: red;
+    padding: 15px 20px;
+    font-size: 30px;
+    letter-spacing: 5px;
+}
+.asode .logo a span{
+    font-family: 'Clicker Script',cursive;
+}
