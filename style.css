@@ -30,13 +30,16 @@ ul{
     background: var(--bg-black-900);
     min-height: 100vh;
     display: block;
-    position: fixed;
-    left: 270px;
+    /* position: fixed;
+    left: 270px; */
     padding: 0 30px;
-    top: 0;
+    /* top: 0;
     right: 0;
-    z-index: 0;
+    z-index: 0; */
     opacity: 1;
+}
+.main-content{
+    padding-left: 250px;
 }
 .padd-15{
     padding-left: 15px;
@@ -102,7 +105,7 @@ ul{
 }
 .aside .logo a span{
     font-family: 'Clicker Script', cursive;
-    font-family: 40px;
+    font-size: 40px;
 }
 .aside .logo a::before{
     content: ' ';
@@ -223,7 +226,31 @@ h3.my-profession{
     /* background: red; */
     text-align: center;
     position: relative;
+    /* background: red; */
+}
+.home-img::after{
+    content: ' ';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    border-bottom: 10px solid var(--skin-color);
+    border-right: 10px solid var(--skin-color);
+    right: 20px;
+    bottom: -40px;
+}
+.home-img::before{
+    content: ' ';
+    position: absolute;
+    height: 80px;
+    width: 80px;
+    /* background: red; */
+    border-top: 10px solid var(--skin-color);
+    border-left: 10px solid var(--skin-color);
+    left: 20px;
+    top: -40px;
 }
 .home .home-img img{
+    margin: auto;
+    border-radius: 5px;
     height: 400px;
 }
